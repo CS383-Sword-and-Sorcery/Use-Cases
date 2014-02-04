@@ -25,35 +25,35 @@
 \contentsline {subsection}{\numberline {2.3.4}Display Random Movement}{13}
 \contentsline {subsection}{\numberline {2.3.5}Rally Demoralized Units}{13}
 \contentsline {subsection}{\numberline {2.3.6}Display Unit}{14}
-\contentsline {section}{\numberline {2.4}Selection}{15}
-\contentsline {paragraph}{(Author: Gabe Pearhill)}{15}
-\contentsline {subsection}{\numberline {2.4.1}Unit Selection}{15}
+\contentsline {section}{\numberline {2.4}Selection}{14}
+\contentsline {paragraph}{(Author: Gabe Pearhill)}{14}
+\contentsline {subsection}{\numberline {2.4.1}Unit Selection}{14}
 \contentsline {subsection}{\numberline {2.4.2}Hexagon Selection}{15}
 \contentsline {section}{\numberline {2.5}Movement}{15}
 \contentsline {paragraph}{(Author: Gabe Pearhill)}{15}
-\contentsline {subsection}{\numberline {2.5.1}Move a Unit}{16}
+\contentsline {subsection}{\numberline {2.5.1}Move a Unit}{15}
 \contentsline {subsection}{\numberline {2.5.2}Using a Portal}{16}
 \contentsline {section}{\numberline {2.6}Magic}{17}
 \contentsline {paragraph}{(Author: Tao Zhang)}{17}
 \contentsline {subsection}{\numberline {2.6.1}Spell Segment}{17}
 \contentsline {subsection}{\numberline {2.6.2}CounterSpell Segment}{17}
 \contentsline {subsection}{\numberline {2.6.3}Spell Selection}{18}
-\contentsline {subsection}{\numberline {2.6.4}Spell Selection Helper}{19}
+\contentsline {subsection}{\numberline {2.6.4}Spell Selection Helper}{18}
 \contentsline {subsection}{\numberline {2.6.5}Spell Cast}{19}
 \contentsline {subsection}{\numberline {2.6.6} Manna Regeneration}{20}
 \contentsline {section}{\numberline {2.7}Combat}{21}
 \contentsline {paragraph}{(Author: Matthew Brown)}{21}
 \contentsline {subsection}{\numberline {2.7.1}Attack Hex}{21}
-\contentsline {subsection}{\numberline {2.7.2}Retreating}{22}
-\contentsline {subsection}{\numberline {2.7.3}Advance after combat}{23}
+\contentsline {subsection}{\numberline {2.7.2}Retreating}{21}
+\contentsline {subsection}{\numberline {2.7.3}Advance after combat}{22}
 \contentsline {subsection}{\numberline {2.7.4}Capturing}{23}
 \contentsline {subsection}{\numberline {2.7.5}Escaping}{24}
-\contentsline {subsection}{\numberline {2.7.6}Leadership Rating}{25}
-\contentsline {section}{\numberline {2.8}Diplomacy}{26}
-\contentsline {paragraph}{(Author: Cameron Simon)}{26}
-\contentsline {subsection}{\numberline {2.8.1}Influencing Neutrals}{26}
-\contentsline {subsection}{\numberline {2.8.2}Invading Neutrals}{27}
-\contentsline {subsection}{\numberline {2.8.3}Human Sacrifice}{28}
-\contentsline {subsection}{\numberline {2.8.4}Spawn Emissaries}{29}
-\contentsline {subsection}{\numberline {2.8.5}Diplomacy}{30}
-\contentsline {subsection}{\numberline {2.8.6}Alliance Selection}{31}
+\contentsline {subsection}{\numberline {2.7.6}Leadership Rating}{24}
+\contentsline {section}{\numberline {2.8}Diplomacy}{25}
+\contentsline {paragraph}{(Author: Cameron Simon)}{25}
+\contentsline {subsection}{\numberline {2.8.1}Influencing Neutrals}{25}
+\contentsline {subsection}{\numberline {2.8.2}Invading Neutrals}{26}
+\contentsline {subsection}{\numberline {2.8.3}Human Sacrifice}{27}
+\contentsline {subsection}{\numberline {2.8.4}Spawn Emissaries}{28}
+\contentsline {subsection}{\numberline {2.8.5}Diplomacy}{29}
+\contentsline {subsection}{\numberline {2.8.6}Alliance Selection}{29}

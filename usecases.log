@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  2 FEB 2014 13:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 FEB 2014 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,11 +281,11 @@ Underfull \vbox (badness 10000) detected at line 135
 [6
 
 ]
-Underfull \vbox (badness 10000) detected at line 157
+Underfull \vbox (badness 10000) detected at line 154
  []
 
 
-Underfull \vbox (badness 10000) detected at line 180
+Underfull \vbox (badness 10000) detected at line 174
  []
 
 [7]
@@ -293,174 +293,134 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-Underfull \vbox (badness 10000) detected at line 217
+Underfull \vbox (badness 10000) detected at line 211
  []
 
 [8]
-Underfull \vbox (badness 10000) detected at line 237
+Underfull \vbox (badness 10000) detected at line 231
  []
 
 [9]
-Underfull \vbox (badness 10000) detected at line 263
+Underfull \vbox (badness 10000) detected at line 257
  []
 
 [10]
-Underfull \vbox (badness 10000) detected at line 293
+Underfull \vbox (badness 10000) detected at line 287
  []
 
 
-Underfull \vbox (badness 10000) detected at line 314
+Underfull \vbox (badness 10000) detected at line 308
  []
 
 [11]
-Underfull \vbox (badness 10000) detected at line 335
+Underfull \vbox (badness 10000) detected at line 329
  []
 
 [12]
-Underfull \vbox (badness 10000) detected at line 352
+Underfull \vbox (badness 10000) detected at line 343
  []
 
 
-Underfull \vbox (badness 10000) detected at line 374
+Underfull \vbox (badness 10000) detected at line 365
  []
 
 [13]
-Underfull \vbox (badness 10000) detected at line 396
+Underfull \vbox (badness 10000) detected at line 387
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 410
  []
 
 [14]
-Underfull \vbox (badness 10000) detected at line 419
+Underfull \vbox (badness 10000) detected at line 424
  []
 
 
-Underfull \vbox (badness 10000) detected at line 433
- []
-
-
-Underfull \hbox (badness 1281) in paragraph at lines 455--455
-[]\OT1/cmr/m/n/12 Computer checks if tile has spe-cial at-
+Underfull \vbox (badness 10000) detected at line 447
  []
 
 [15]
-Underfull \vbox (badness 10000) detected at line 456
- []
-
-
-Underfull \vbox (badness 10000) detected at line 473
+Underfull \vbox (badness 10000) detected at line 464
  []
 
 [16]
-Underfull \vbox (badness 10000) detected at line 494
+Underfull \vbox (badness 10000) detected at line 485
  []
 
 
-Underfull \vbox (badness 10000) detected at line 511
+Underfull \vbox (badness 10000) detected at line 502
  []
 
 [17]
-Underfull \vbox (badness 10000) detected at line 535
+Underfull \vbox (badness 10000) detected at line 526
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 545
  []
 
 [18]
-Underfull \vbox (badness 10000) detected at line 554
- []
-
-
-Underfull \vbox (badness 10000) detected at line 578
+Underfull \vbox (badness 10000) detected at line 569
  []
 
 [19]
-Underfull \vbox (badness 10000) detected at line 600
+Underfull \vbox (badness 10000) detected at line 591
  []
 
 [20]
-Underfull \vbox (badness 10000) detected at line 630
+Underfull \vbox (badness 10000) detected at line 621
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 646
  []
 
 [21]
-Underfull \vbox (badness 10000) detected at line 655
+Underfull \vbox (badness 10000) detected at line 665
  []
 
 [22]
-Underfull \vbox (badness 10000) detected at line 674
- []
-
-
-Underfull \vbox (badness 10000) detected at line 695
+Underfull \vbox (badness 10000) detected at line 686
  []
 
 [23]
-Underfull \vbox (badness 10000) detected at line 713
- []
-
-[24]
-Underfull \vbox (badness 10000) detected at line 735
- []
-
-[25] [26]
-Underfull \hbox (badness 2726) in paragraph at lines 786--786
-[]\OT1/cmr/m/n/12 Computer checks po-si-tion of Neu-
+Underfull \vbox (badness 10000) detected at line 704
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 786--786
-\OT1/cmr/m/n/12 puter dis-plays die roll and play-ers
+Underfull \vbox (badness 10000) detected at line 726
  []
 
-[27]
-Underfull \hbox (badness 3118) in paragraph at lines 810--810
-[]\OT1/cmr/m/n/12 During the Al-liance De-ter-mi-na-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--810
-[]\OT1/cmr/m/n/12 Player may sac-ri-fice as many
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 810--810
-\OT1/cmr/m/n/12 units/characters as they wish but
- []
-
-[28]
-Underfull \hbox (badness 2884) in paragraph at lines 824--824
+[24] [25] [26] [27]
+Underfull \hbox (badness 2884) in paragraph at lines 806--806
 []\OT1/cmr/m/n/12 Character must have diplo-matic rat-ing
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 834--834
-[]\OT1/cmr/m/n/12 Computer rec-og-nizes game is in
+[28]
+Underfull \vbox (badness 10000) detected at line 838
  []
 
-[29]
-Underfull \hbox (badness 1173) in paragraph at lines 859--859
-[]\OT1/cmr/m/n/12 Computer ref-er-ences the Diplo-macy
- []
-
-
-Underfull \vbox (badness 10000) detected at line 862
- []
-
-[30] [31] [32] (./usecases.aux) ) 
+[29] [30] (./usecases.aux) ) 
 Here is how much of TeX's memory you used:
- 2214 strings out of 493633
- 33794 string characters out of 3143378
+ 2215 strings out of 493633
+ 33806 string characters out of 3143378
  129318 words of memory out of 3000000
- 5528 multiletter control sequences out of 15000+200000
+ 5529 multiletter control sequences out of 15000+200000
  9427 words of font info for 33 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 35i,8n,40p,281b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2011/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb>
-Output written on usecases.pdf (32 pages, 118314 bytes).
+ 35i,8n,40p,281b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmssbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb>
+Output written on usecases.pdf (30 pages, 117387 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -95,7 +95,7 @@
                   \additemizedfield{Preconditions}{
                     \item The game is not in a active game state. 
                   }
-                  \additemizedfield{Primary Sequence:}{
+                  \addscenario{Primary Sequence:}{
                     \item Player chooses one of the following:
                       \begin{enumerate}
                         \item New game
@@ -119,7 +119,7 @@
                   }
                   \additemizedfield{Preconditions}{
                     \item The game has been initialized to the beginning of play or the game is in progress.                  }
-                  \additemizedfield{Primary Sequence:}{
+                  \addscenario{Primary Sequence:}{
                     \item Player chooses one of the following:
                       \begin{enumerate}
                         \item New game
@@ -144,12 +144,9 @@
                 	\additemizedfield{Actors}{
 						\item Human player
 						}
-					\additemizedfield{Primary Sequence:}{
-					\item
-					  \begin{enumerate}
+					\addscenario{Primary Sequence:}{
 						\item Select the name of the saved state.
-						\item Initiate load.	  
-					  \end{enumerate}
+						\item Initiate load.						  
 					}
 					\additemizedfield{Alternative}{
 					  \item Resume game is canceled.
@@ -167,12 +164,9 @@
 				    \item A scenario is underway.
 				  }
 				    
-				  \additemizedfield{Primary Sequence:}{
-				    \item
-				      \begin{enumerate}
+				  \addscenario{Primary Sequence: }{
 				        \item Name the state to be saved.
 				        \item Initiate save.
-				      \end{enumerate}
 				  }
 				  \additemizedfield{Alternative}{
 					  \item Save game is canceled.
@@ -192,7 +186,7 @@
                         \item Scenario selection has been chosen from the main menu.
                         \item Players have agreed on a scenario.
                         }
-                  \additemizedfield{Primary Sequence:}{
+                  \addscenario{Primary Sequence:}{
                         \item The player selects from the following scenarios.
                               \begin{enumerate}
                                     \item War of the League of Arrival, 1100 BF
@@ -226,7 +220,7 @@
 				  \additemizedfield{Preconditions}{
 				    \item One of the 14 scenarios has been selected.
 				  }
-				\additemizedfield{Primary Sequence:}{
+				\addscenario{Primary Sequence:}{
 				  \item The current player selects a race from the list of races allowed by the scenario.
 				  \item Next player initiates use case ``Race selection" or else use case ``unit placement" is initialized.
 				}
@@ -246,7 +240,7 @@
 				  \additemizedfield{Preconditions}{
 				    \item The player representing the race to be deployed is in active control.
 				  }
-				  \additemizedfield{Primary Sequence:}{
+				  \addscenario{Primary Sequence:}{
 				    \item Unit Placement
 				    \begin{enumerate}
 				      \item The player initiates the use case ``select unit".
@@ -277,7 +271,7 @@
 			\additemizedfield{Preconditions}{
 				\item A die roll is required for a user command
 			}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item user selects a command that requires a die roll
 				\item Computer selects a random number from 1 to 6
 				\item Computer displays message box with selected value
@@ -302,7 +296,7 @@
 			\additemizedfield{Preconditions}{
 				\item is currently the Player-Order Determination Inter-Phase
 			}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item Computer determines the order of play
 				\item Computer displays a dialog box with the order of play
 				\item User clicks the OK button
@@ -323,7 +317,7 @@
 			\additemizedfield{Preconditions}{
 				\item is currently the Random Event Determination Inter-Phase
 			}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item Computer selects a random event
 				\item Computer displays a dialog box describing the random event.
 				\item User selects the OK button
@@ -339,10 +333,7 @@
 		\begin{usecase}
 			\addtitle{Random Events}{Display Random Movement}
 			\addfield{Summary}{move all the vortices, uncontrolled killer penguins, or other randomly-moving units or characters which are required to move in this phase}
-			\additemizedfield{Preconditions}{
-				\item
-			}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item Computer centers on the view on a unit to be moved
 				\item Computer moves the unit
 			}
@@ -362,7 +353,7 @@
 				\item is currently a players Combat Phase
 			}
 			\addfield{Summary}{User attempts to rally units}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item user selects a unit to rally (see Unit Selection)
 				\item Computer determines if the rally was 
 				\item Computer displays the die roll (see Display Die Roll)
@@ -384,7 +375,7 @@
 				\item User turn
 			}
 			\addfield{Summary}{display a message box showing information about a selected unit}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item User selects a unit
 				\item Computer displays a message box containing all the relavant information on the unit
 				\item User selects the OK button
@@ -411,7 +402,7 @@
                   \additemizedfield{Preconditions}{
                     \item Phase requiring unit selection.
                   }
-                  \additemizedfield{Steps}{
+                  \addscenario{Steps}{
                     \item Once a phase requiring unit selection begins, the computer highlights all available units. 
                     \item The user clicks one or more units.
                     \item Computer saves the selection state.
@@ -426,7 +417,7 @@
                   \additemizedfield{Actors}{
                         \item Player
                   }
-                  \additemizedfield{Steps}{
+                  \addscenario{Steps}{
                                     \item Player clicks on a hex.
                                     \item Computer records the hex selection.
                   }
@@ -447,7 +438,7 @@
                   \additemizedfield{Preconditions}{
                     \item Movement Phase
                   }
-                  \additemizedfield{Steps}{
+                  \addscenario{Steps}{
                     \item Select unit(s). (See Unit Selection)
                     \item Computer highlights hexagons within range of the selected units.
                     \item Player selects an eligible hexagon.
@@ -463,7 +454,7 @@
                   \additemizedfield{Actors}{
                         \item Player
                   }
-                  \additemizedfield{Steps}{
+                  \addscenario{Steps}{
                                     \item Player moves on top of a portal hexagon.
                                     \item Player is provided a dialog giving them the option to use the portal.
                                     \item If the player chooses to use the portal the player must then choose to teleport his units individually or as a group.
@@ -620,7 +611,7 @@
 				\item Select Hex
 				\item Dice Rolling
 			}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item User chooses an eligible unit with the select use case
 				\item User chooses an eligible hex with the hex select use case
 				\item Computer calculates the combat results and displays valid options
@@ -643,7 +634,7 @@
 			\additemizedfield{Related Use Cases}{
 				\item Select Hex
 			}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item Computer displays a dialogue box stating the option to retreat
 				\item User selects the option to retreat
 				\item User selects the hex to retreat to using the Select Hex use case
@@ -665,7 +656,7 @@
 				\item Units retreat from attacking units
 			}
 			\addfield{Summary}{When a player attacks, an opposing player may be able to retreat their units. If this retreat occurs then the attacking player may be able to choose to pursue the retreating units}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item pposing player uses the Retreating use case
 				\item Computer displays a dialogue box stating the option to purse retreating units
 				\item User selects their preferred option
@@ -684,7 +675,7 @@
 				\item User in either movement phase or Advance after combat usage case
 			}
 			\addfield{Summary}{If a user's unit is in moving, whether through the movement usage case or the advance after combat phase, and finishes movement on an enemy's character then that character has been captured}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item User chooses a hex during their movement phase or advance after combat usage case
 				\item The user chooses a hex with an enemy character
 				\item The computer then updates the graphics for a captured unit
@@ -705,7 +696,7 @@
 				\item Have a captured character
 			}
 			\addfield{Summary}{Once a character is captured the capturing units must remain with the captured character while escorting him/her to the capital of the players race}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item User moves an escorting unit away from a captured character 
 				\item Character automatically escapes
 				\item Computer updates the map to show the escaped character 
@@ -722,7 +713,7 @@
 			\additemizedfield{Preconditions}{
 				\item Game is at the end of any Manna Regeneration phase and is not in the same turn as the turn the character was captured}
 			\addfield{Summary}{A character may have a chance to escape after the game turn he/she was captured. The odds of escaping depend on the leadership rating of the character}
-			\additemizedfield{Primary Sequence}{
+			\addscenario{Primary Sequence}{
 				\item Computer displays dialogue box with option for escape
 				\item User chooses the option to escape
 				\item Computer calculates whether the character escapes based of the Leadership Rating
@@ -750,14 +741,11 @@
                     \item Neutral's Diplomacy marker must be within one hex of a lettered hex(a players hex) on the Diplomacy track. 
                   }
                   \addfield{Summary}{When a neutral is influenced by a player that player can move freely through that neutrals territory.}                  
-                  \additemizedfield{Primary Sequence:}{
-                    \item Steps:
-                      \begin{enumerate}
+                  \addscenario{Primary Sequence:}{
                         \item Computer recognizes neutral is being influenced by player.
                         \item Player prompted to see if they want to move through neutral territory.
                         \item Player moves through the neutrals territory as they wish.
                         \item If neutrals diplomacy marker is moved should prompt player to move out of neutral territory unless they want to enter "Invading Neutral" state.
-                      \end{enumerate}
                   }
                   \addfield{Produces: }{Diplomacy map with new neutral locations is displayed.}                  
               
@@ -774,15 +762,12 @@
                     \item User places his/her Army units, Monsters, or Vortices inside territories owned by a Neutral. 
                   }
                   \addfield{Summary}{Decide who neutrals in question are going to make alliances with.}                  
-                  \additemizedfield{Primary Sequence:}{
-                    \item Steps:
-                      \begin{enumerate}
+                  \addscenario{Primary Sequence:}{
                         \item Computer checks position of Neutral's Diplomacy marker on Diplomacy Track.
                         \item If marker is closest to a lettered hex, Computer places Neutral on side it was leaning toward.
                         \item If marker equidistant from two or more opposing, non-invading players, computer displays die roll and players roll (highest wins control). Computer places neutral in winning players hex.
                         \item If marker equidistant from invading player's hex and one or more other player's hex, it will immediately ally with some non-invading players as in step 3. Computer places neutral in winning players hex.
                         \item If marker closest to invading Player's hex it is immediately placed in Neutral central hex by computer.
-                      \end{enumerate}
                   }
                   \addfield{Produces: }{Diplomacy map with new neutral locations is displayed.}                  
               
@@ -799,14 +784,11 @@
                     \item Player moves a unit or Character adjacent to a unit or character controlled by the Neutral to whom he wishes to sacrifice. 
                   }
                   \addfield{Summary}{Neutral's Diplomacy marker is moved one hex by the sacrificing Player. }                  
-                  \additemizedfield{Primary Sequence:}{
-                    \item Steps:
-                      \begin{enumerate}
+                  \addscenario{Primary Sequence:}{
                         \item Player chooses option of human sacrifice.
                         \item During the Alliance Determination Phase, the unit or Character is removed from play by the computer.
                         \item Computer moves Neutral's diplomacy marker one hex.
                         \item Player may sacrifice as many units/characters as they wish but computer will NOT move diplomacy marker any more for that game turn.
-                      \end{enumerate}
                   }
                   \addfield{Produces: }{Diplomacy map with new diplomacy locations.}                  
               
@@ -823,14 +805,11 @@
                     \item Character must have diplomatic rating greater than zero.
                   }
                   \addfield{Summary}{Up to two emissaries created for character that exist only for one purpose. }                  
-                  \additemizedfield{Primary Sequence:}{
-                    \item Steps:
-                      \begin{enumerate}
+                  \addscenario{Primary Sequence:}{
                         \item Computer recognizes game is in Friendly Movement Phase.
                         \item Computer prompts user to see if they want to create emissaries.
                         \item User responds yes or no.
                         \item User selects how many they want to create (1 or 2).
-                      \end{enumerate}
                   }
                   \addfield{Produces: }{Specified number of emissaries on game board. (Do we need rules for emissary movement and  deletion in this use case?)}                  
               
@@ -848,14 +827,11 @@
                     \item Game must be in Diplomacy Inter-Phase state and a player must have a Character of Emissary in the Capital hex of a Neutral Power. 
                   }
                   \addfield{Summary}{Establish new diplomacy lines based on game specifications.}                  
-                  \additemizedfield{Primary Sequence:}{
-                    \item Steps:
-                      \begin{enumerate}
+                  \addscenario{Primary Sequence:}{
                         \item Computer cross references the race of the player's character or emissary and the race of the neutral power on the table to yield a single number (negative or positive).
                         \item Player rolls two dice and has that number added to the number found in step 1.
                         \item Computer references the Diplomacy Results table with number found above (result will be positive, negative, or an 'x').
                         \item Based on output from step 3 and the rule specification for those outputs, the computer places the pieces in their new locations on the diplomacy track.
-                      \end{enumerate}
                   }
                   \addfield{Produces: }{Display updated map with new marker location on diplomacy map.}                  
               
@@ -872,13 +848,10 @@
                     \item Game must be in Player-Order Determination Inter-Phase. 
                   }
                   \addfield{Summary}{Players choose who they want to be allied with for the current game turn.}                  
-                  \additemizedfield{Primary Sequence:}{
-                    \item Steps:
-                      \begin{enumerate}
+                  \addscenario{Primary Sequence:}{
                         \item Each player is prompted to see if they want to form alliances.
                         \item If player says yes, then they select the player they want to ally with.
                         \item Computer checks to see if players selected each other to be allies. (Ex: If player A selects to ally with player B, Player B must also select to ally with player A to form the alliance)
-                      \end{enumerate}
                   }
                   \addfield{Produces: }{Displays current player alliances.}                  
               
