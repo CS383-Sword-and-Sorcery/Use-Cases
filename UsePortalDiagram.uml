@@ -1,0 +1,25 @@
+@startuml
+title <b>Using a Portal</b>
+actor Player
+actor Computer
+
+rectangle Steps{
+
+"Player moves a unit or units onto a portal." as (Step1)
+"Player is asked if they want to use the portal." as (Step2)
+"Teleport an individual unit, or a group of units?" as (Step3)
+"Perform teleportation!" as (Step4)
+"Should an enemy unit occupy an output portal,\n the teleported units should be retreated by one tile." as (Step5)
+
+Player   .left.>  (Step1)
+Player   .left.>  (Step2)
+Computer .right.> (Step3)
+Computer .right.> (Step4)
+Computer .right.> (Step5)
+
+(Step1)  -down->  (Step2)
+(Step2)  -down->  (Step3)
+(Step3)  -down->  (Step4)
+(Step4)  -down->  (Step5)
+}
+@enduml
