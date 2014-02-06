@@ -1,0 +1,43 @@
+@startuml
+
+title Spawn Emissaries
+'default
+top to bottom direction
+user1 .> (Spawn Emissaries) 
+computer .> (Spawn Emissaries)
+
+usecase Precondition as "Preconditions
+--
+Character must have diplomatic rating
+greater than zero."
+
+usecase Summary as "Summary
+--
+Up to two emissaries created for character that
+exist only for one purpose."
+
+usecase Description as "Steps:"
+
+"1. Computer recognizes game is in Friendly Movement Phase." as (Step 1)
+
+"2. Computer prompts user to see if they want to create emissaries." as (Step 2)
+
+"3. User responds yes or no." as (Step 3)
+
+"4. User selects how many they want to create (1 or 2)." as (Step 4)
+
+usecase Produces as "Produces
+--
+Specified number of emissaries on game board."
+
+top to bottom direction
+(Spawn Emissaries) --> (Precondition)
+(Precondition) --> (Summary)
+(Summary) --> (Description)
+(Description) -up.> (Step 1)
+(Step 1) -down.> (Step 2)
+(Step 2) -down.> (Step 3)
+(Step 3) -down.> (Step 4)
+(Step 4) -left--> (Produces)
+
+@enduml
