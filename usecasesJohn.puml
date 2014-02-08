@@ -1,0 +1,28 @@
+@startuml
+usecase RollDice as "Display results of dice roll
+  --
+  close window"
+usecase RandomEvent as "Display results of random event
+  --
+  close window"
+usecase PlayerOrder as "Display player order
+  --
+  close window"
+
+usecase RallyDemoralizedUnits
+usecase DisplayUnit as "Display unit information
+  --
+  close window"
+
+
+actor user
+user --> (RollDice) : "confirms result"
+user --> (RandomEvent) : "confirms result"
+user --> (PlayerOrder) : "confirms result"
+user --> (DisplayUnit) : "selects unit"
+user --> (DisplayUnit) : "confirms information"
+user -> (RallyDemoralizedUnits) : "selects units"
+(RallyDemoralizedUnits) --> (RollDice)
+
+
+@enduml
